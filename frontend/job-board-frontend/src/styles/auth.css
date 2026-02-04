@@ -1,0 +1,45 @@
+/* FULL PAGE BLUE GRADIENT */
+.auth-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #6a7be6, #7b5bbf);
+}
+
+.auth-card {
+  background: white;
+  padding: 30px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+.auth-card h2 {
+  margin-bottom: 20px;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.auth-card button {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(135deg, #6a6ff5, #8b6fe8);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.auth-card button:hover {
+  opacity: 0.9;
+}
+
+.switch-text {
+  margin-top: 15px;
+}

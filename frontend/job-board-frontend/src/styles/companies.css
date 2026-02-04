@@ -1,0 +1,36 @@
+.companies-container {
+  padding: 40px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.companies-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.companies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.company-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.company-card:hover {
+  transform: translateY(-5px);
+}
+
+.company-card p {
+  margin-top: 8px;
+  color: #6a7be6;
+  font-weight: 600;
+}

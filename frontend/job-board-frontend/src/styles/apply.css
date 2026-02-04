@@ -1,0 +1,25 @@
+.apply-wrapper {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #6a7be6, #7b5bbf);
+}
+
+.apply-card {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  width: 360px;
+}
+
+.apply-card button {
+  margin-top: 20px;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #6a7be6, #7b5bbf);
+  color: white;
+  cursor: pointer;
+}
